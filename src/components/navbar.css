@@ -1,0 +1,74 @@
+.nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  height: 10vh; /* Using vh for responsive height */
+  background-color: rgba(253, 237, 142, 1);
+  /* background-color: #bb9429; */
+  /* margin-left: -250px; */
+  z-index: 2;
+  /* background: transparent; */
+}
+
+.nav:hover {
+  color: goldenrod;
+}
+
+.nav_menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 2.12vw; /* Using vw for responsive font size */
+  font-family: 'Times New Roman', Times, serif;
+  flex-grow: 1;
+  gap: 2rem; /* Adjust gap as needed */
+  justify-content: center;
+}
+
+.hover-btn {
+  transition: background-color 0.3s ease;
+}
+
+.hover-btn:hover {
+  background-color: black;
+}
+
+.App-logo {
+  position: absolute;
+  height: 100%;
+  margin: 0;
+  padding-left: 0.7vw; /* Using vw for responsive padding */
+  padding-top: 1vh; /* Using vh for responsive padding */
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  transition: filter 0.3s ease;
+}
+
+.navbar-brand {
+  /* color: black; */
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  /* color: darkblue; */
+  /* color: rgba(253, 237, 142, 0.904); */
+}
+
+.navbar-brand:hover .App-logo {
+  /* filter: invert(50%) sepia(100%) saturate(500%) hue-rotate(180deg); */
+}
+
+.navbar-nav .nav-link {
+  color: black;
+}
+
+.navbar-nav .nav-link:hover {
+  /* color: darkblue; */
+  color: #1A1AE5;
+  /* color: rgba(253, 237, 142, 0.904);; */
+}

@@ -1,0 +1,45 @@
+.imgCol{
+
+}
+
+.img-div {
+  /* background-image: url('https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/img4.webp'); */
+  background-image: url('../images/contactUs1.png');
+  display: inline-flexbox;
+  align-items: flex-end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.background-div{
+  /*background-image: url('https://www.shutterstock.com/shutterstock/photos/2128959116/display_1500/stock-vector-abstract-waving-particle-technology-background-design-abstract-wave-moving-dots-flow-particles-hi-2128959116.jpg');*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: bottom-right;
+  /* border: 2px solid black; */
+  /* min-width: 1800px; */
+}
+
+.formCol{
+    text-align: left;
+}
+
+.gradient-text {
+    background: linear-gradient(45deg, #FFC107, blue, #FF5722);
+    -webkit-background-clip: text; /* Webkit (Safari, Chrome) browsers */
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .form-control {
+    background-color: white;
+    border: 1px solid black;
+    /* color: black; */
+  }
+  
+  .form-label{
+    color: black;
+  }
+  
