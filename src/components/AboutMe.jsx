@@ -38,7 +38,7 @@ export default function AboutMe() {
                 <div style={{ paddingLeft: "10%", paddingTop: "1px" }}>
                   <a
                     href={reenalCV}
-                    download="Reenal_CV.pdf"
+                    download=""
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn-danger btn-lg"
