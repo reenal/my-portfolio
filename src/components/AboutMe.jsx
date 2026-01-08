@@ -36,19 +36,7 @@ export default function AboutMe() {
               </p>
               {
                 <div style={{ paddingLeft: "10%", paddingTop: "1px" }}>
-                  <a
-                    href={reenalCV}
-                    download=""
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn btn-danger btn-lg"
-                    style={{
-                      borderRadius: "50px",
-                      boxShadow: "0 8px 16px rgba(255, 0, 0, 0.4)",
-                    }}
-                  >
-                    Download CV
-                  </a>
+                 
                 </div>
               }
 
