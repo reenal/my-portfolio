@@ -1,7 +1,6 @@
 // import { render } from "@testing-library/react";
 import React from "react";
 import "./aboutMe.css";
-import reenalCV from "../PDF/ReenalBoddulResume.pdf";
 import "../App.css";
 import aiImg from "../images/DeWatermark.ai_1713524697848.png";
 
